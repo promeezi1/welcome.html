@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>GAP Tutorials | Empowering Learning</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #4b6cb7;
+      --secondary: #182848;
+      --accent: #f2f2f2;
+      --cta: #ff7e5f;
+      --text: #333;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(to right, var(--primary), var(--secondary));
+      color: var(--accent);
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 2rem;
+    }
+
+    .container {
+      background: rgba(255, 255, 255, 0.1);
+      padding: 3rem 2rem;
+      border-radius: 15px;
+      backdrop-filter: blur(10px);
+      max-width: 600px;
+      box-shadow: 0 4px 30px rgba(0,0,0,0.2);
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+      font-weight: 700;
+    }
+
+    p {
+      font-size: 1.1rem;
+      margin-bottom: 2rem;
+      line-height: 1.6;
+    }
+
+    .cta-buttons {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+
+    .cta-buttons a {
+      background: var(--cta);
+      color: white;
+      text-decoration: none;
+      padding: 0.8rem 1.5rem;
+      border-radius: 30px;
+      font-size: 1rem;
+      transition: background 0.3s ease;
+    }
+
+    .cta-buttons a:hover {
+      background: #eb6e4b;
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 2rem;
+      }
+
+      .cta-buttons {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Welcome to GAP Tutorials</h1>
+    <p>
+      We are your trusted partner in academic excellence. At GAP Tutorials, we offer personalized tutoring,
+      career guidance, and consultation for students, interns, and professionals. Unlock your potential with expert support every step of the way.
+    </p>
+    <div class="cta-buttons">
+      <a href="learn-more.html">Learn More</a>
+      <a href="contact.html">Contact Us</a>
+      <a href="about-us.html">About Us</a>
+    </div>
+  </div>
+</body>
+</html>
